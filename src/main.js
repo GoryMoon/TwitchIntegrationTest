@@ -10,7 +10,7 @@ import App from './App.vue'
 Vue.config.productionTip = false
 
 
-const socket = io('https://seapi.gorymoon.se/v2', {
+const socket = io('https://smapi.gorymoon.se/v2', {
     autoConnect: false
 })
 Vue.use(VueSocketIOExt, socket)
